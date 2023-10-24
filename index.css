@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+    text-decoration: none;
+}
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:1.5px solid transparent ;
+}
+.border:hover{
+   border: 1.5px solid white;
+}
+.add-first{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.add-sec{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-left: 10px;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 3px solid orange;
+}
+.search-select{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: px;
+    text-align: center;
+    background-color: #f3f3;
+    border: none;
+}
+.search-input{
+    border:none;
+    width: 550px;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 166, 0);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #0f1111;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+   font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.panel-ops p{
+   display: inline; 
+   margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.hero-section{
+    height: 400px;
+    background-size: cover;
+    background-image: url("hero_image.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-text a{
+    color: #007158;
+}
+.box{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box-img{
+    height: 300px;
+    padding: 20px 0px 15px;
+   background-size: cover;
+}
+.box-content{
+    margin-left:1rem;
+    margin-right:  1rem;
+}
+.box-content a{
+    color: #007158;
+}
+.box-content a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+footer{
+    margin-top: 10px;
+}
+.foot-panel1{
+    background-color:#222f32 ;
+   height: 50px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+.foot-panel2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.foot-panel2 ul li{
+    padding-top: 10px;
+    list-style: none;
+}
+ ul  a{
+    color: whitesmoke;
+    display: block;
+}
+ ul  a:hover{
+   text-decoration: underline white;
+  
+}
+.foot-links{
+    margin-top: 30px;
+}
+.foot-links h5{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}   
+.foot-panel3{
+    background-color: #131A22;
+   border-top: 2px solid white;
+   height: 80px;
+    width: 100%;
+    color: white;
+    
+}
+.logo img {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 5rem;        
+}
+.foot-panel3 p{
+    text-align: center;
+}
